@@ -51,8 +51,8 @@
 
 .button1:active,
 .button2:active {
-    transform: scale(1.1);
-    border: 2px solid black;
+    transform: scale(1.1.8);
+    border: 2px solid rgb(54, 50, 50);
 }
 
 
@@ -95,17 +95,13 @@
 }
 
 .all_images img {
-
+    cursor: pointer;
     display: inline-block; 
     margin-right: 2px;
     max-width: 60px;
     max-height: 40px;
     box-shadow:  2px 2px rgba(0, 0, 0, 0.2);
     
-}
-.image_select{
-    margin-bottom: 0px;
-    box-shadow: 2px 2px 2px 2px rgba(39, 38, 38, 0.6);
 }
 
 .image_select img{
